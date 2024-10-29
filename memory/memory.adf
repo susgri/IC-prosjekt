@@ -1,0 +1,99 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=3
+Current Config=compile
+
+[Configurations]
+compile=memory
+
+[Library]
+memory=.\memory\memory.lib
+
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=1
+AccessACCR=1
+AccessReadWriteSLP=1
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VERILOG
+REFRESH_FLOW=1
+FLOWTOOLS=ONLY_IMPL
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+DVM_DISPLAY=NO
+fileopenfolder=M:\Documents\Ovinger\prosjekt\FSM\memory\src
+SimulationAccessReadPaths=
+SimulationAccessReadModules=
+SimulationAccessReadWritePaths=
+SimulationAccessReadWriteModules=
+SimulationAccessNetsPaths=
+SimulationAccessNetsModules=+ml +access +w_nets
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+
+[LocalVhdlSets]
+CompileWithDebug=0
+
+[$LibMap$]
+memory=.
+Active_lib=
+
+[IMPLEMENTATION]
+UCF=
+
+[SpecTracer]
+WindowVisible=0
+
+[HierarchyViewer]
+HierarchyInformation=
+ShowHide=ShowTopLevel
+Selected=
+
+[Files]
+/bitcell.v=-1
+/memorycell.v=-1
+/testBitcell.awc=-1
+/testMemory.awc=-1
+/Testbench.v=-1
+/memory-test.do=-1
+/TestBenchMemory.v=-1
+/testbenchBitcell.v=-1
+/testBenchBitcell.awc=-1
+/TestBenchMemory.awc=-1
+/memory_row.v=-1
+/adressDecoder.v=-1
+/testbenchDecoder.v=-1
+/testBenchAdressDecoder.awc=-1
+/testbenchMemoryRow.v=-1
+/testbenchMemoryRow.awc=-1
+/FSM.v=-1
+/D_flipflop.v=-1
+
+[Files.Data]
+.\src\bitcell.v=Verilog Source Code
+.\src\memorycell.v=Verilog Source Code
+.\src\testBitcell.awc=Accelerated Waveform Configuration
+.\src\testMemory.awc=Accelerated Waveform Configuration
+.\src\Testbench.v=Verilog Test Bench
+.\src\memory-test.do=macro
+.\src\TestBenchMemory.v=Verilog Source Code
+
+.\src\testbenchBitcell.v=Verilog Source Code
+.\src\testBenchBitcell.awc=Accelerated Waveform Configuration
+.\src\TestBenchMemory.awc=Accelerated Waveform Configuration
+.\src\memory_row.v=Verilog Source Code
+.\src\adressDecoder.v=Verilog Source Code
+.\src\testbenchDecoder.v=Verilog Source Code
+.\src\testBenchAdressDecoder.awc=Accelerated Waveform Configuration
+.\src\testbenchMemoryRow.v=Verilog Source Code
+.\src\testbenchMemoryRow.awc=Accelerated Waveform Configuration
+.\src\FSM.v=Verilog Source Code
+.\src\D_flipflop.v=Verilog Source Code
