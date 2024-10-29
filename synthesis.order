@@ -1,0 +1,11 @@
+i<>.\src\bitcell.v
+i<>.\src\memorycell.v
+i<>.\src\Testbench.v
+i<>.\src\TestBenchMemory.v
+i<>.\src\testbenchBitcell.v
+i<>.\src\memory_row.v
+i<>.\src\adressDecoder.v
+i<>.\src\testbenchDecoder.v
+i<>.\src\testbenchMemoryRow.v
+i<>.\src\FSM.v
+i<>.\src\D_flipflop.v
